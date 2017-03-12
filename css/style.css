@@ -43,6 +43,9 @@ p {
   #index-banner .section {
     top: 0;
   }
+  #mobile-headshot {
+    max-width: 70%;
+  }
 }
 
 .icon-block {
