@@ -45,6 +45,7 @@ p {
   }
   #mobile-headshot {
     max-width: 70%;
+    max-height: 240px;
   }
 }
 
