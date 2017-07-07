@@ -88,7 +88,36 @@
 		// Header.
 			var $header = $('#header'),
 				$headerTitle = $header.find('header'),
-				$headerContainer = $header.find('.container');
+				$headerContainer = $header.find('.container'),
+        $replacedText = $('#replace-text');
+
+        let descriptors = [
+          'n { earnest',
+          'n { eager',
+          ' { helpful',
+          ' { smart',
+          ' { curious',
+          'n { all-around good',
+          ' { great little',
+          ' { talented',
+          ' { fun',
+          ' { funny',
+          ' { serious',
+          ' { focused',
+          'n { extemporaneous',
+          'n { anglophile',
+          ' { supercool',
+          'n { insufferable'
+      ];
+
+      window.setInterval(function () {
+        $replacedText.fadeOut(function () {
+          $replacedText.text(descriptors[Math.floor(Math.random()*descriptors.length)]);
+        });
+        $replacedText.fadeIn();
+      }, 1500);
+
+
 
 			// Make title fixed.
 				if (!skel.vars.mobile) {
