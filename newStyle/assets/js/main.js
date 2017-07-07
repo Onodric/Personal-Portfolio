@@ -107,7 +107,11 @@
           'n { extemporaneous',
           'n { anglophile',
           ' { supercool',
-          'n { insufferable'
+          'n { insufferable',
+          ' { better',
+          ' { good',
+          'n { interested',
+          'n { interesting'
       ];
 
       window.setInterval(function () {
