@@ -8,17 +8,14 @@ contains a lot of nice nuggets too.
 
 ## Works To include:
 
-1. Some artwork
+1. Some artwork ?
     1. paper cutting
     1. Sketches
     
 1. Websites on there
     1. leXicology
-    1. Chatty (to host)
-    1. Toy Consignment: (to deploy)
-    1. Robot Battle (to deploy)
-    
-1. Sites not on there
+    1. Blogity Blog
     1. Pilzjagt
-    1. Gauntlet?
-    1. Translate?
+    1. Chatty 
+    1. Robot Battle
+    
